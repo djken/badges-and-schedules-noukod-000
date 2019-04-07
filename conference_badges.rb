@@ -13,7 +13,7 @@ end
 arr_name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 batch_badge_creator(arr_name)
 
-def assign_rooms(speakers)
+def assign_rooms(array)
   new_array = []
   room_count = 1
   array.each do |speakers_name|
