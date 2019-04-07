@@ -16,8 +16,8 @@ batch_badge_creator(arr_name)
 def assign_rooms(speakers)
   new_rray = []
   room_count = 1
-  array.each do |name|
-    new_array.push("Hello, #{name}! You'll be assigned to room #{room_count}!")
+  array.each do |speakers_name|
+    new_array.push("Hello, #{speakers_name}! You'll be assigned to room #{room_count}!")
     room_count += 1
   end
   return new_array
