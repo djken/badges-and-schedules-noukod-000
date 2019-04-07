@@ -6,7 +6,7 @@ end
 def batch_badge_creator(arr_names)
   new_arr = []
   arr_names.each do |n|
-    return "Hello, my name is #{n}."
+    pus"Hello, my name is #{n}."
   end
 end
 
